@@ -38,7 +38,7 @@
 <body>
     <img src="/weixin_favicon.png" style="position: absolute; left: -9999px; opacity: 0; filter: alpha(opacity=0);">
 
-    <nav class="">
+    <nav class="indigo">
     <div class="nav-wrapper">
         <a href="#" data-activates="main-menu" class="button-collapse">
             <i class="fa fa-navicon"></i>
@@ -180,7 +180,7 @@
 
             </div>
 
-            <time class="-link-context" datetime="2019-06-20T13:49:49.084Z"><a href="/2019/06/20/hello-world/">2019-06-20</a></time>
+            <time class="indigo-link-context" datetime="2019-06-20T13:49:49.084Z"><a href="/2019/06/20/hello-world/">2019-06-20</a></time>
 
             
 
@@ -211,7 +211,7 @@
 </div>
 
         <div class="fixed-action-btn float-sitemap">
-    <a class="btn-floating btn-large ">
+    <a class="btn-floating btn-large indigo">
       <i class="fa fa-caret-square-o-up"></i>
     </a>
     <ul>
@@ -221,7 +221,7 @@
   </div>
 
     </main>
-    <footer class="page-footer  darken-1">
+    <footer class="page-footer indigo darken-1">
     
     <div class="footer-container container">
         <div class="row">
@@ -268,7 +268,7 @@
     </div>
     
 
-    <div class="footer-copyright -link-context">
+    <div class="footer-copyright indigo-link-context">
         <div class="container">
             © 2019 example.com, All rights reserved.
             <p class="right" style="margin-top: 0;">本博客由 <a href="https://hexo.io">Hexo</a> 强力驱动 | 主题 <a href="https://github.com/raytaylorlin/hexo-theme-raytaylorism">raytaylorism</a></p>
@@ -365,11 +365,11 @@
             $('li.tab a').hover(function() {
                 $(this).toggleClass('text-lighten-4');
             });
-            $('.indicator').addClass(' lighten-2');
+            $('.indicator').addClass('indigo lighten-2');
 
             
             // 添加new标签
-            $('.menu-reading, .menu-about').append('<span class="new badge "></span>');
+            $('.menu-reading, .menu-about').append('<span class="new badge indigo"></span>');
             
 
             // 搜索功能
@@ -444,7 +444,7 @@
                             if (isMatch) {
                                 keywords.forEach(function(keyword) {
                                     var regS = new RegExp(keyword, "gi");
-                                    data_title = data_title.replace(regS, "<span class=\"search-keyword  lighten-2\">" + keyword + "</span>");
+                                    data_title = data_title.replace(regS, "<span class=\"search-keyword indigo lighten-2\">" + keyword + "</span>");
                                 });
 
                                 str += "<li><a href='" + data_url + "' class='search-result-title'>" + data_title + "</a>";
@@ -466,7 +466,7 @@
                                     // highlight all keywords
                                     keywords.forEach(function(keyword) {
                                         var regS = new RegExp(keyword, "gi");
-                                        match_content = match_content.replace(regS, "<span class=\"search-keyword  lighten-2\">" + keyword + "</span>");
+                                        match_content = match_content.replace(regS, "<span class=\"search-keyword indigo lighten-2\">" + keyword + "</span>");
                                     });
 
                                     str += "<p class=\"search-result\">..." + match_content + "...</p>"
